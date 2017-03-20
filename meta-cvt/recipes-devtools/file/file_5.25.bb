@@ -8,8 +8,8 @@ SECTION = "console/utils"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://COPYING;beginline=2;md5=6a7382872edb68d33e1a9398b6e03188"
 
-SRC_URI[sha256sum] = "eaa1b8f0f960975b54007d122b75ac5deb32c8997c4a59bd5b9f8f4cdad4da49"
-SRC_URI[md5sum] = "e88e70264cb04d7466209053412e7777"
+SRC_URI[md5sum] = "b8a7127a63036cc1d087feea6b66646c"
+SRC_URI[sha256sum] = "9479cc73498ad77f91d086f8ae8ada64b0a412de80c228666e5b99c1a96b26b5"
 
 DEPENDS = "zlib file-replacement-native"
 DEPENDS_class-native = "zlib-native"
