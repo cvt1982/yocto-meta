@@ -8,17 +8,17 @@ SECTION = "console/utils"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://COPYING;beginline=2;md5=6a7382872edb68d33e1a9398b6e03188"
 
-SRC_URI[md5sum] = "b8a7127a63036cc1d087feea6b66646c"
-SRC_URI[sha256sum] = "9479cc73498ad77f91d086f8ae8ada64b0a412de80c228666e5b99c1a96b26b5"
+#SRC_URI[md5sum] = "618e54d4baa11e5c8037fb3dd6650126"
+#SRC_URI[sha256sum] = "a829d807e1f86eb1ffe9e895de401c69cc0af068b6930870e27f4956fa5b1666"
 
 DEPENDS = "zlib file-replacement-native"
 DEPENDS_class-native = "zlib-native"
 
-SRC_URI = "https://github.com/file/file.git \
-        "
+#SRC_URI = "https://github.com/file/file.git"
+SRC_URI = "git://github.com/file/file.git"
 
-SRCREV = "3c0874be4d3232d672b20f513451a39cfd7c585a"
-#SRCREV = "ea2cd50d09bfc02ebbd066cad91f1883aba9a3ac"
+#SRCREV = "3c0874be4d3232d672b20f513451a39cfd7c585a"
+SRCREV = "ea2cd50d09bfc02ebbd066cad91f1883aba9a3ac"
 S = "${WORKDIR}/git"
 
 inherit autotools
