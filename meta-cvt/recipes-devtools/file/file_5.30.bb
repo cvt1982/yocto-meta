@@ -18,7 +18,8 @@ DEPENDS_class-native = "zlib-native"
 SRC_URI = "git://github.com/file/file.git"
 
 #SRCREV = "3c0874be4d3232d672b20f513451a39cfd7c585a"
-SRCREV = "ea2cd50d09bfc02ebbd066cad91f1883aba9a3ac"
+#SRCREV = "ea2cd50d09bfc02ebbd066cad91f1883aba9a3ac"
+SRCREV = "daaf6d44768677aca17af780bba0a451fbb69ac8"
 S = "${WORKDIR}/git"
 
 inherit autotools
